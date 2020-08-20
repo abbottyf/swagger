@@ -1,0 +1,21 @@
+server:
+  port: 8005
+
+swagger:
+  enabled: true #是否启用swagger
+  title: swagger
+  description: swagger
+  version:  1.0.0
+  terms-of-service-url: www.baidu.com
+  contact:
+    name: yanfei
+    email: 649471699@qq.com
+    url: www.baidu.com
+  base-package: com.example
+  ui-config:
+    show-request-headers: true
+  authorization:
+    key-name: token
+    type: ApiKey
+    name: Authorization
+  base-path:
